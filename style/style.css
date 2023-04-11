@@ -3,3 +3,33 @@
     padding:0;
     box-sizing: border-box;
 }
+
+h1{
+    color: rgb(229, 49, 112);
+    margin: 20px auto;
+    font-weight: 900;
+}
+
+body{
+    background-color: rgb(255, 255, 254);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.main_collumn{
+    width: calc(100%-20px);
+    text-align: center;
+}
+
+.introduzione{
+    margin: 30px auto 20px;
+}
+
+.introduzione p{
+    color: black;
+}
