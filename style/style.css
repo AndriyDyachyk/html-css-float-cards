@@ -54,28 +54,27 @@ h1{
 
 /* CARDS */
 .card{
-    float:left;
     width: calc(100% / 3 - 30px);
     margin: 15px;
     background-color: rgb(15, 14, 23);
     min-width: 300px;
-    height: 100px;
     box-shadow: 0 0 3px 1px black;
 }
 
 .img_profilo{
-    float: left;
     width: 100px;
-    height: 100px;
 }
 
 .riferimenti{
-    height: 100px;
-    float: left;
     padding: 10px;
 }
 
 p.mail{
     color: rgb(110, 203, 242);
+}
+
+.card, .img_profilo, .riferimenti{
+    float: left;
+    height: 100px;
 }
 /* FINE CARDS*/
