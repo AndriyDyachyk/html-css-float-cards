@@ -1,15 +1,9 @@
+/* SCHELETRO */
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
-
-h1{
-    color: rgb(229, 49, 112);
-    margin: 20px auto;
-    font-weight: 900;
-}
-
 body{
     background-color: rgb(255, 255, 254);
     color: white;
@@ -22,14 +16,66 @@ body{
 }
 
 .main_collumn{
-    width: calc(100%-20px);
+    width: calc(100% - 20px);
     text-align: center;
 }
+/* FINE SCHELETRO */
 
+/* STILE TITOLO */
+h1{
+    color: rgb(229, 49, 112);
+    margin: 10px auto 20px;
+    font-weight: 900;
+    font-size: 2rem;
+}
+/* FINE STILE TITOLO */
+
+/* INTRODUZIONE */
 .introduzione{
-    margin: 30px auto 20px;
+    color: black;
+    margin: 30px auto;
+}
+/* FINE SEZIONE INTRODUZIONE */
+
+/* INIZIO ROW PRESENTAZIONE TEAM */
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.introduzione p{
-    color: black;
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
 }
+/* FINE ROW PRESENTAZIONE TEAM
+
+/* CARDS */
+.card{
+    float:left;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+    background-color: rgb(15, 14, 23);
+    min-width: 300px;
+    height: 100px;
+    box-shadow: 0 0 3px 1px black;
+}
+
+.img_profilo{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.riferimenti{
+    height: 100px;
+    float: left;
+    padding: 10px;
+}
+
+p.mail{
+    color: rgb(110, 203, 242);
+}
+/* FINE CARDS*/
