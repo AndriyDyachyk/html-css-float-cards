@@ -59,6 +59,7 @@ h1{
     background-color: rgb(15, 14, 23);
     min-width: 300px;
     box-shadow: 0 0 3px 1px black;
+    float: left;
 }
 
 .img_profilo{
@@ -73,7 +74,7 @@ p.mail{
     color: rgb(110, 203, 242);
 }
 
-.card, .img_profilo, .riferimenti{
+.img_profilo, .riferimenti{
     float: left;
     height: 100px;
 }
